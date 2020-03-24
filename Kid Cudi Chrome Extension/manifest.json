@@ -1,0 +1,41 @@
+{
+	"manifest_version":2,
+	"name": "Kid Cudi Browser",
+	"version": "1.0",
+	"description": "This extensions alters the look and content of a web page.",
+	"content_scripts":[
+		{
+			"matches": [ "<all_urls>"],
+			"js": ["content.js"],
+			"css": ["content.css"]
+		}
+	],
+	"web_accessible_resources":[
+		"images/kidcudi1.jpg",
+		"images/kidcudi2.jpg",
+		"images/kidcudi3.jpg",
+		"images/kidcudi4.jpg",
+		"images/kidcudi5.jpg",
+		"images/kidcudi6.jpg",
+		"images/kidcudi7.jpg",
+		"images/kidcudi8.jpg",
+		"images/kidcudi9.jpg",
+		"images/kidcudi10.jpg",
+		"images/kidcudi11.jpg",
+		"images/kidcudi12.jpg",
+		"images/kidcudi13.jpg",
+		"images/kidcudi14.jpg",
+		"images/kidcudi15.jpg",
+		"images/kidcudi16.jpg",
+		"images/kidcudi17.jpg",
+		"images/kidcudi18.jpg",
+		"images/kidcudi19.jpg",
+		"images/kidcudi20.jpg",
+		"images/kidcudi21.jpg",
+		"images/kidcudi22.jpg",
+		"images/kidcudi23.jpg",
+		"images/kidcudi24.jpg",
+		"images/kidcudi25.jpg",
+		"images/kidcudi26.jpg"
+	]
+}
